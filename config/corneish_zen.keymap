@@ -54,7 +54,7 @@
                               &mo 3      &lt 2 TAB      &lt 1 SPACE                        &lt 1 BSPC        &lt 2 RET       &mo 3
                         >;
                 };
-                
+
                 lower_layer {
                         label = "NUMBER";
 // -----------------------------------------------------------------------------------------
@@ -64,10 +64,10 @@
 //                       | GUI  |  TAB  | SPC |   | BSPC | ENT | ALT |
 
                         bindings = <
-   &kp TAB    &kp N1          &kp N2          &kp N3            &kp N4              &kp N5              &kp N6           &kp N7           &kp N8          &kp N9           &kp N0             &kp BSPC
-   &bt BT_CLR &mt LMETA HOME  &mt LALT PG_DN  &mt LCTRL PG_UP   &mt LSHIFT END      &kp INS             &kp DEL          &mt LMETA LEFT   &mt LALT DOWN   &mt LCTRL UP     &mt LSHIFT RIGHT   &trans
-   &kp LSHFT  &trans          &trans          &trans            &trans              &trans              &trans           &trans           &trans          &trans           &trans             &trans
-                                              &kp LGUI          &kp TAB             &kp SPACE           &kp BSPC         &kp RET          &kp RALT
+   &kp TAB    &kp N1          &kp N2          &kp N3            &kp N4              &kp N5              &kp N6           &kp N7            &kp N8           &kp N9           &kp N0             &kp BSPC
+   &bt BT_CLR &mt LMETA HOME  &mt LALT PG_DN  &mt LCTRL PG_UP   &mt LSHIFT END      &kp INS             &kp DEL          &mt LSHIFT LEFT   &mt LCTRL DOWN   &mt LALT UP      &mt LMETA RIGHT    &trans
+   &kp LSHFT  &trans          &trans          &trans            &trans              &trans              &trans           &trans            &trans           &trans           &trans             &trans
+                                              &kp LGUI          &kp TAB             &kp SPACE           &kp BSPC         &kp RET           &kp RALT
                         >;
                 };
 
@@ -83,7 +83,7 @@
    &kp  TAB  &kp EXCL    &kp AT &kp HASH    &kp DLLR    &kp PRCNT          &kp CARET   &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
    &kp LCTRL &kp TILDE   &trans &trans      &kp GRAVE   &kp SQT            &kp MINUS   &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
    &kp LSHFT &trans      &trans &trans      &trans      &kp DQT            &kp UNDER   &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
-                                &kp LGUI    &kp TAB     &kp SPACE          &kp BSPC    &kp RET    &kp RALT
+                                &kp LGUI    &kp TAB     &kp SPACE          &kp BSPC    &kp RET   &kp RALT
                         >;
                 };
 
